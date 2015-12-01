@@ -1,5 +1,3 @@
-function sayHelloTo(who){
+export default function(who){
   console.log('Hello ' + who);
-}
-
-module.exports = sayHelloTo;
+};

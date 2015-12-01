@@ -9,7 +9,11 @@ module.exports = {
         filename: '/app.js',
         path: __dirname + '/dist'
     },
-    resolve: {
-      extensions: ['', '.js', '.jsx'],
+    module: {
+      loaders: [
+        { test: /\.js$/, exclude: /node_modules/, loader: 'babel',query: {
+          presets: ['es2015']
+        }}
+      ]
     }
 };

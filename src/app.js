@@ -1,3 +1,3 @@
-var helloFn = require('./module1');
+import helloFn from './module1';
 
 helloFn('react');
