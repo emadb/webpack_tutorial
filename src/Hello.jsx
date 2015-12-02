@@ -11,7 +11,7 @@ export default class Hello extends React.Component {
   render() {
     return (
       <div>
-        <h1>Counter: {this.state.counter}</h1>
+        <h1>I am the counter: {this.state.counter}</h1>
         <button type="button" onClick={() => this.count()}>click</button>
       </div>);
   }
